@@ -152,3 +152,4 @@ $RECYCLE.BIN/
 
 .gitignore
 .idea/
+!/.gitignore
