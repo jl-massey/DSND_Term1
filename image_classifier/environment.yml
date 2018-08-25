@@ -1,0 +1,17 @@
+name: dsnd-image
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - click=6.7
+  - matplotlib
+  - python=3.6
+  - scipy=1.1
+  - cuda80=1.0
+  - pytorch=0.4.1
+  - pip:
+    - pillow==5.2
+    - torch==0.4.1
+    - torchvision==0.2
+    - tqdm==4.25
